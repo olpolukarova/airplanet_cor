@@ -1,0 +1,45 @@
+.booking{
+  background-color: #76b46f;
+  background-image: url(/images/comments/pattern.png);
+  width: 100%;
+  padding: 45px 0;
+  margin-bottom: 58px;    
+}
+.booking__inner{
+    max-width: 640px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.66;
+}
+.booking__link{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.66;
+    font-weight: 700; 
+        &:hover{
+            transition: .3s;
+            color: $pink;
+        }  
+}
+.booking__link--border{
+    // border-bottom: 1px solid #ffffff;
+    text-decoration: underline;
+    transition: .3s;
+        &:hover{
+            transition: .3s;
+            text-decoration: none;
+            color: $pink;
+            // border-bottom: 1px solid transparent;
+        }
+}
+.booking--blue{
+    margin-bottom: 30px;
+    background-color: #5972b1;
+    background-image: url(/images/comments/pattern.png);
+    text-align: center;
+    padding: 30px 10px;
+}

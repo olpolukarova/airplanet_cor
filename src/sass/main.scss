@@ -1,0 +1,25 @@
+//patterns
+@import 'base/size';
+@import 'base/media';
+
+// base 
+@import 'base/project-base'; 
+@import 'base/shared'; 
+
+//elements
+@import 'elements/btn'; 
+ 
+//tamplate
+@import 'template/index-page';
+@import 'template/header';
+@import 'template/breadcrumbs'; 
+@import 'template/sidebar';
+@import 'template/main-page';
+@import 'template/section-content';
+@import 'template/content-team';
+@import 'template/partners'; 
+@import 'template/tariffs'; 
+@import 'template/pagination'; 
+@import 'template/form'; 
+@import 'template/booking'; 
+@import 'template/footer';

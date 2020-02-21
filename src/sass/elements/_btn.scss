@@ -1,0 +1,100 @@
+.btn {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  padding: 15px 20px;  
+  border-radius: 4px;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+.object__bnt-link {
+  color: #3a5bbf;
+  border: 1px solid #3a5bbf;  
+  transition: 0.3s;
+    &:hover {
+      transition: 0.3s;
+      background-color: #3a5bbf;
+      color: #ffffff;      
+    }
+}
+.object__bnt-img{
+  width: 15px;
+  height: 14px;
+  vertical-align: text-top;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+.st0{
+  transition: .3s;
+}
+
+.object__bnt-link:hover .st0{
+  transition: .3s;
+  stroke: #ffffff;
+}
+
+
+//form
+.bnt-form {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    background-color: #5972b1;        
+        &:hover {
+            transition: 0.3s;
+            background-color: #ffffff;
+            color: #5972b1;         
+        }   
+}
+.bnt-form:hover .st0{
+  transition: .3s;
+  stroke: #5972b1;
+}
+
+
+
+
+// $btn-width: 195px;
+// $btn-height: 50px;
+
+// .btn{
+//   min-width: $btn-width;
+//   height: $btn-height;
+//   padding: 0 40px 0 20px;
+//   text-align: center;
+//   font-size: 15px;
+//   line-height: $btn-height;
+//   color: #fff;
+//   transition: background .4s, color .4s;
+//   border: 1px solid $black;
+//   background-color: $black;
+//   position: relative;
+//   &.noarrow{
+//     padding: 0 40px;
+//   }
+//   &:hover{
+//     color: $black;
+//     background-color: transparent;
+//     path{
+//       fill: $black;
+//     }
+//   }
+//   svg{
+//     position: absolute;
+//     right: 20px;
+//     top: 50%;
+//     transform: translateY(-50%);
+//   }
+//   path{
+//     transition: .4s;
+//   }
+//   @include media($tablet){
+//     min-width: 160px;
+//     height: 40px;
+//     line-height: 38px;
+//     font-size: 13px;
+//   }
+// }
